@@ -46,7 +46,7 @@ const Works = () => {
             </span>
       {/* <button className='button s-button'>Hire Me</button> */}
       <button className='button s-button'> 
-        <a  style={{ textDecoration: 'none' }} href="https://www.linkedin.com/in/ankit-kumar-1401/" target="_blank">HIRE ME</a>
+        <a  style={{ textDecoration: 'none' }} href="https://www.linkedin.com/in/ankit-kumar-1401/" >HIRE ME</a>
         </button>
       <div className="blur s-blur1" style={{background: '#ABF1FF94'}} ></div>
       </div>

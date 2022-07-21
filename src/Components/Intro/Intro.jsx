@@ -36,7 +36,8 @@ const Intro = () => {
         </button>
         <div className="i-icons">
           {/* // import link here */}
-          <a target="blank" href='https://github.com/ankitkumar5358'>
+          
+          <a  rel='' href='https://github.com/ankitkumar5358'>
             <img className='f-img' src={Github} alt='' />
           </a>
           <a href='https://www.linkedin.com/in/ankit-kumar-1401/'>
