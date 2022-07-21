@@ -8,7 +8,9 @@
       /* scroll view */
       padding-top: 3rem;
 }
-
+.service-text{
+      font-size: 24px;
+}
 /* left side */
 .awesome {
       display: flex;
@@ -70,15 +72,21 @@
             gap: 5rem;
             height: 66rem;
             padding: 0;
+            margin-top: 30px;
+            margin-bottom: 30px;
       }
 
       .cards {
             display: flex;
             flex-direction: column;
             gap: 17rem;
+            margin-top: 30px;
+            margin-bottom: 30px;
       }
 
       .cards>* {
             position: static;
+            margin-top: 30px;
+            margin-bottom: 30px;
       }
 }

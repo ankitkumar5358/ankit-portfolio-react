@@ -1,10 +1,10 @@
 import React from 'react'
 import './Works.css'
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import nextjs from "../../img/nextjs.png"
+import css from "../../img/css.png"
+import html from "../../img/html.png"
+import js from "../../img/js.png"
+import react from "../../img/react.png"
 import { themeContext } from '../../Context'
 import { useContext } from 'react'
 import {motion} from 'framer-motion'
@@ -18,12 +18,36 @@ const Works = () => {
       <div className='works'>
             {/* left */}
       <div className="awesome">
-      <span style={{color : darkMode ? 'white' : 'black'}}>Works for all these</span>
-      <span>Brands & Clients</span>
-      <span style={{color : darkMode ? 'white' : 'black'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veritatis qui dicta numquam 
+      <span style={{color : darkMode ? 'white' : 'black'}}>Works  efficiently for all these</span>
+      <span>Language & Tools</span>
+      <span style={{color : darkMode ? 'white' : 'black'}}>
+            Use markup languages like HTML to create user-friendly web pages
             <br/>
-            harum minima ab aspernatur non ipsa esse! Commodi sed beatae nesciunt iste voluptatem laborum placeat magnam</span>
-      <button className='button s-button'>Hire Me</button>
+            Maintain and improve website
+            <br/>
+            Optimize applications for maximum speed
+            Design mobile-based features in CSS & Javascript
+            <br/>
+            Collaborate with back-end developers and web designers to improve usability
+            <br/>
+            Get feedback from, and build solutions for, users and customers
+            <br/>
+            Write functional requirement documents and guides
+            <br/> 
+            Create quality mockups and prototypes
+            <br/>
+            Help back-end developers with coding and troubleshooting
+            <br/>
+            Ensure high quality graphic standards and brand consistency
+            <br/>
+            Stay up-to-date on emerging technologies like ReactJS and NextJS
+            <br/>
+
+            </span>
+      {/* <button className='button s-button'>Hire Me</button> */}
+      <button className='button s-button'> 
+        <a  style={{ textDecoration: 'none' }} href="https://www.linkedin.com/in/ankit-kumar-1401/" target="_blank">HIRE ME</a>
+        </button>
       <div className="blur s-blur1" style={{background: '#ABF1FF94'}} ></div>
       </div>
             {/* right */}
@@ -35,19 +59,19 @@ const Works = () => {
             transition={{ duration: 3.5, type: "spring" }}
             className="w-mainCircle">
                   <div className="w-secCircle">
-                        <img src={Upwork} alt='' />
+                        <img src={nextjs} alt='' />
                   </div>
                   <div className="w-secCircle">
-                        <img src={Fiverr} alt='' />
+                        <img src={css} alt='' />
                   </div>
                   <div className="w-secCircle">
-                        <img src={Amazon} alt='' />
+                        <img src={html} alt='' />
                   </div>
                   <div className="w-secCircle">
-                        <img src={Shopify} alt='' />
+                        <img src={js} alt='' />
                   </div>
                   <div className="w-secCircle">
-                        <img src={Facebook} alt='' />
+                        <img src={react} alt='' />
                   </div>
             </motion.div>
             {/* background circle */}

@@ -9,6 +9,7 @@ import { themeContext } from '../../Context'
 import { useContext } from 'react'
 import { motion } from 'framer-motion'
 
+
 function Services() {
       const transition = { duration: '1', type: 'spring' }
       const theme = useContext(themeContext);
@@ -20,9 +21,18 @@ function Services() {
       <div className="awesome">
       <span style={{color : darkMode ? 'white' : 'black'}}>My Awesome</span>
       <span>Services</span>
-      <span style={{color : darkMode ? 'white' : 'black'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veritatis qui dicta numquam 
-            <br/>
-            harum minima ab aspernatur non ipsa esse! Commodi sed beatae nesciunt iste voluptatem laborum placeat magnam</span>
+      <div className='service-text' >
+      <span style={{color : darkMode ? 'white' : 'black'}}>
+      Implemented websites, mobile applications, and landing pages  <br/> from concept through deployment.
+      Standardized all output with a new, responsive, mobile-first   <br/>approach and strategy.
+      <br/>
+      Assessed UX and UI designs for technical feasibility.
+      <br/>
+      Collaborated with product team members  <br/>to implement new feature developments.
+      </span>
+      </div>
+            
+      
       <a href= {Resume} download >
       <button className='button s-button'>Download CV</button>
       </a>
@@ -43,7 +53,7 @@ function Services() {
                   <Card
                   emoji = {HeartEmoji}
                   heading ={'Design'}
-                  detail ={'Figma , Sketch, Photoshop, Adobe, Adobe XD'}
+                  detail ={'Figma , Sketch, Photoshop,  Mateial_UI, Bootstrap etc..'}
                   />
             </motion.div>
             {/* second card  */}
@@ -58,7 +68,7 @@ function Services() {
                   emoji={Glasses}
                   heading={"Developer"}
                   detail={
-                        "HTML CSS JAVASCRIPT REACT PHP SQL C++ DSA"
+                        "HTML5, CSS5, JAVASCRIPT, REACT-JS ,etc.."
                   }
                   />
             </motion.div>
@@ -73,9 +83,9 @@ function Services() {
             }}>
                   <Card
                   emoji={Humble}
-                  heading={"UI/UX"}
+                  heading={"CMS / WORDPRESS"}
                   detail={
-                        "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                        "Wordpress Development, Plugin Modfication, Woocommerce  etc.."
                   }
                   />
             </motion.div>

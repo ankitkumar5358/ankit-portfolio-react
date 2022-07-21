@@ -20,22 +20,22 @@ const Testomonial = () => {
             {
               img: profilePic1,
               review:
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+                "Outstanding work product from the hired developer, Very Good Developer with excellent skills on frontend and backend",
             },
             {
               img: profilePic2,
               review:
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+                "Very good frontend developer in the field of react or frontend development, also design given by him is fabulous",
             },
             {
               img: profilePic3,
               review:
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+                "Project delivered within given time and with given budget amount, excellent programmer for react js project",
             },
             {
               img: profilePic4,
               review:
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+                "My project got delivered within time and without any bug or error. Very friendly developer good skills",
             },
           ];
 

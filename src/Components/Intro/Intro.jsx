@@ -5,7 +5,8 @@ import Linkedin from '..//../img/linkedin.png'
 import Instagram from '..//../img/instagram.png'
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/boy.png";
+// import boy from "../../img/boy.png";
+import profileankit from '../../img/profileankit.png'
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
@@ -24,15 +25,19 @@ const Intro = () => {
         <div className="i-name">
           <span style={{ color: darkMode ? 'white' : 'black' }}>Hello 🙏, I Am</span>
           <span>Ankit Kumar</span>
-          <span>Frontend Developer with high level
-            of experience in web development , producing quality work
+          <span>Frontend Developer with intermediate level
+            of experience in Creating web and mobile applications.
+
+            Maintaining, optimizing, troubleshooting, and improving websites and webapps.
           </span>
         </div>
-        <button className='button i-button'>Hire Me</button>
+        <button className='button i-button'> 
+        <a  style={{ textDecoration: 'none' }} href="https://www.linkedin.com/in/ankit-kumar-1401/" target="_blank">HIRE ME</a>
+        </button>
         <div className="i-icons">
           {/* // import link here */}
           <a target="blank" href='https://github.com/ankitkumar5358'>
-            <img src={Github} alt='' />
+            <img className='f-img' src={Github} alt='' />
           </a>
           <a href='https://www.linkedin.com/in/ankit-kumar-1401/'>
             <img src={Linkedin} alt='' />
@@ -49,7 +54,7 @@ const Intro = () => {
       <div className="i-right">
         <img src={Vector1} alt='' />
         <img src={Vector2} alt='' />
-        <img src={boy} alt='' />
+        <img src={profileankit} alt='' />
         <motion.img
           initial={{ left: '-36%' }}
           whileInView={{ left: '-24%' }}
@@ -63,7 +68,7 @@ const Intro = () => {
           style={{ top: '-4%', left: '68%' }}
           className='floating-div'
           >
-          <FloatingDiv image={crown} txt1='Web' txt2='Developer' />
+          <FloatingDiv image={crown} txt1='Web' txt2=' Developer  ' />
         </motion.div>
 
         <motion.div
@@ -73,7 +78,7 @@ const Intro = () => {
         style={{ top: '18rem', left: '0rem' }}
         className='floating-div'
         >
-          <FloatingDiv image={thumbup} txt1='Best Design' txt2='Award' />
+          <FloatingDiv image={thumbup} txt1='Software' txt2='Engineer' />
         </motion.div>
         {/* blur divs */}
         <div className='blur' style={{ backgroundColor: "rgb(238 210 255)" }} >
