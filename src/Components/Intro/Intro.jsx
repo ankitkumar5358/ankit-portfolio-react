@@ -32,7 +32,7 @@ const Intro = () => {
           </span>
         </div>
         <button className='button i-button'> 
-        <a  style={{ textDecoration: 'none' }} href="https://www.linkedin.com/in/ankit-kumar-1401/" target="_blank">HIRE ME</a>
+        <a  style={{ textDecoration: 'none' }} href="https://www.linkedin.com/in/ankit-kumar-1401/">HIRE ME</a>
         </button>
         <div className="i-icons">
           {/* // import link here */}
